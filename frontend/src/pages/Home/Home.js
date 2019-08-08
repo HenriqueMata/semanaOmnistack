@@ -29,6 +29,7 @@ export default function Routes({ match }) {
             headers: { user: match.params.id }
         });
 
+        setUsers(users.filter(user => user._id !== id));
     }
 
     const handleDislike = async id => {
