@@ -25,6 +25,7 @@ module.exports = {
     ],
     "no-use-before-define": ["error", { "variables": false }],
     "react/prop-types": 0,
+    "no-underscore-dangle": 0
     },
     "plugins": ["prettier"]
 };
